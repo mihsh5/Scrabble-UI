@@ -1,0 +1,29 @@
+body {
+  background: #ffc600;
+}
+.board {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  width: 70%;
+  max-width: 70%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin: 2.5px;
+}
+
+.tile {
+  display: flex;
+  flex: 1;
+  border: 1px solid #d1e2ff;
+  align-content: center;
+  justify-content: center;
+  padding: 5px;
+}
